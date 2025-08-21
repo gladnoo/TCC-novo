@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_dados"
+        android:icon="@drawable/dados"
+        android:title="Meus dados" />
+
+    <item
+        android:id="@+id/nav_medico"
+        android:icon="@drawable/medicos"
+        android:title="Fale com seu médico" />
+
+    <item
+        android:id="@+id/nav_calendario"
+        android:icon="@drawable/calendario"
+        android:title="Meu calendário gestacional" />
+
+    <item
+        android:id="@+id/nav_duvidas"
+        android:icon="@drawable/chat"
+        android:title="Dúvidas - Chat IA" />
+
+    <item
+        android:id="@+id/nav_batepapo"
+        android:icon="@drawable/maternidade"
+        android:title="Bate Papo entre futuras mães" />
+</menu>

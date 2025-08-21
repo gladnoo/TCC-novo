@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Fundo com imagem que já contém o layout desenhado -->
+    <ImageView
+        android:id="@+id/fundo"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/menu4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Campo real para USUÁRIO (alinhado com a imagem de fundo) -->
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/UsuarioPaciente"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="E-mail"
+        android:backgroundTint="@android:color/transparent"
+        android:textColorHint="#80000000"
+        android:textColor="#000000"
+        android:inputType="text"
+        android:padding="10dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="360dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginEnd="85dp" />
+
+    <!-- Campo real para SENHA (alinhado com a imagem de fundo) -->
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/SenhaPaciente"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Senha"
+        android:backgroundTint="@android:color/transparent"
+        android:textColorHint="#80000000"
+        android:textColor="#000000"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/UsuarioPaciente"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="23dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginEnd="115dp" />
+
+    <!-- Botão funcional de Login (alinhado com botão da imagem) -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonLoginPaciente"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="LOGIN"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/botao_arredondado"
+        android:backgroundTint="@null"
+        android:fontFamily="@font/fonte"
+        app:layout_constraintTop_toBottomOf="@id/SenhaPaciente"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="100dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
