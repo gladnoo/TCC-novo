@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bgLilac">#EACCF8</color>
+    <color name="purple">#7A2F92</color>
+    <color name="purpleText">#5D1E78</color>
+    <color name="ink">#222222</color>
+    <color name="muted">#8A8A8A</color>
+    <color name="divider">#1F000000</color>
+    <color name="white">#FFFFFF</color>
+</resources>

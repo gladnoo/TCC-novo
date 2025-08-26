@@ -4,18 +4,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <CalendarView
-        android:id="@+id/calendarView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="34dp"
-        tools:layout_editor_absoluteY="34dp" />
-
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="IREI ARRUMAR DEPOIS ~JOAO"
-        tools:layout_editor_absoluteX="108dp"
-        tools:layout_editor_absoluteY="433dp" />
+        android:text="Bem Vinda"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="57dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gerar Imagem"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="607dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

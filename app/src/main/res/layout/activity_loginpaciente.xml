@@ -6,34 +6,37 @@
     android:layout_height="match_parent">
 
     <!-- Fundo com imagem que já contém o layout desenhado -->
+
+    <!-- Campo real para USUÁRIO (alinhado com a imagem de fundo) -->
     <ImageView
         android:id="@+id/fundo"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:scaleType="centerCrop"
         android:src="@drawable/menu4"
-        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
-    <!-- Campo real para USUÁRIO (alinhado com a imagem de fundo) -->
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/UsuarioPaciente"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:hint="E-mail"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginEnd="85dp"
         android:backgroundTint="@android:color/transparent"
-        android:textColorHint="#80000000"
-        android:textColor="#000000"
+        android:hint="Usuário"
         android:inputType="text"
         android:padding="10dp"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="#000000"
+        android:textColorHint="#80000000"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="360dp"
-        android:layout_marginStart="85dp"
-        android:layout_marginEnd="85dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <!-- Campo real para SENHA (alinhado com a imagem de fundo) -->
     <com.google.android.material.textfield.TextInputEditText
